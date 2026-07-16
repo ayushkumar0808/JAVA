@@ -1,0 +1,28 @@
+Traffic
+language barrier
+screen time
+
+People who travel across India or world face language barriers because not everyone knows all languages, which leads to difficulty in communicating with everyone properly.
+we could create a platform where it can help users to learn different types of language like Punjabi, Hindi, Bengali, Kannada Gujaratis.. etc. and also  Japanese, Spanish, Chinese and all. and 
+it also perform real time translator.
+
+ strength:
+1. real time work
+2. communication easy
+3.saves time
+
+opportunities:
+1. travellers
+2. through this platform can create opportunities for employment
+weakness:
+1. not useful for people who know many language.
+2. who don't know about technologies 
+3. improper translation
+threat:
+1. if it is already existed  or implemented by any company like google
+
+we  propose our solution that helps the people  who travel across India or anywhere in the world  by using our 
+
+ as our problem was language barrier and solution was creating a platform so it will be used by the users who are using  different operating system 
+80 billion us,  dollars  approximately valued USD 1.22-1.37 billion 
+out of 1.1 billion smartphone 90%is android and 10% is iOS and 6.6 lakh is google user.
