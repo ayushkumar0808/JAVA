@@ -15,6 +15,6 @@ public class CheckIigiliblityToVote {
 
         }
     }
-    obj.close();
+    
 
 }

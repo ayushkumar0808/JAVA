@@ -1,6 +1,6 @@
 class Parent {
 
-    final void display() {
+     void display() {
         System.out.println("This is final method");
     }
 }
@@ -9,7 +9,7 @@ class Child extends Parent {
 
      void display() 
      {
-        System.out.println("This is final method"); //cannot be overridden here
+        System.out.println("This is final method"); 
      }
 }
 
