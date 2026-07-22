@@ -1,94 +1,63 @@
-import javax.swing.*; 
-import java.awt.event.*; 
+import javax.swing.*;
+import java.awt.event.*;
 
+public class Key extends JFrame implements KeyListener
 
+{
 
-public class Key extends JFrame implements KeyListener  
+    JLabel l;
 
-{ 
+    Key()
 
- 
+    {
 
-    JLabel l; 
+        l = new JLabel("Press any key...");
+        l.setBounds(100, 100, 200, 30);;
 
-    JTextField t; 
+        add(l);
 
- 
+        addKeyListener(this);
 
-    Key()  
+        setTitle("Keyboard Event Demo");
 
-   { 
+        setSize(400, 250);
 
-        l = new JLabel("Press any key..."); 
+        setLayout(null);
 
- 
+        setVisible(true);
 
-        t = new JTextField(); 
+    }
 
- 
+    public void keyTyped(KeyEvent e)
 
-        add(t); 
+    {
 
-        add(l); 
+        l.setText("Key Typed: " + e.getKeyChar());
 
- 
+    }
 
-        t.addKeyListener(this); 
+    public void keyPressed(KeyEvent e)
 
- 
+    {
 
-        setTitle("Keyboard Event Demo"); 
+        l.setText("Key Pressed: " + e.getKeyChar());
 
-        setSize(400, 250); 
+    }
 
-        setLayout(null); 
+    public void keyReleased(KeyEvent e)
 
-        setVisible(true); 
+    {
 
-    } 
+        l.setText("Key Released: " + e.getKeyChar());
 
- 
+    }
 
-    public void keyTyped(KeyEvent e)  
+    public static void main(String[] args)
 
-    { 
+    {
 
-        l.setText("Key Typed: " + e.getKeyChar()); 
+        new Key();
 
-    } 
+    }
 
- 
-
-    public void keyPressed(KeyEvent e) 
-
-    { 
-
-        l.setText("Key Pressed: " + e.getKeyChar()); 
-
-    } 
-
- 
-
-    public void keyReleased(KeyEvent e) 
-
-    { 
-
-        l.setText("Key Released: " + e.getKeyChar()); 
-
-    } 
-
- 
-
-    public static void main(String[] args) 
-
-    { 
-
-        new Key(); 
-
-    } 
-
-} 
-
- 
-
- 
+}
